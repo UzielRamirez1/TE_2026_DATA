@@ -1,5 +1,5 @@
 # TEAM_DATA
-![Portada del album DATA](https://i.pinimg.com/736x/5b/21/9b/5b219be7e9c65e343a4d1f7538da238d.jpg)
+![Portada del album DATA](https://i.pinimg.com/736x/a5/b5/ac/a5b5ac5d9c39532b968bf4b007564274.jpg)
 
 - PRODUCT OWNER:
   - CORTES SEPULVEDA MARLON GIOVANNI         cmarlon483@gmail.com 
