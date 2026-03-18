@@ -10,4 +10,5 @@ SCRUM TEAM:
 
 - VEGA VENCES JULIO EMMANUEL                 Julio.emmanuel.0504@outlook.com
 - JUAREZ LUNA MIGUEL ANGEL                   miguel.juarez.luna13@gmail.com
-- Ulysses
+- Rubén Omar González Pérez                  ulisesrtn900@gmail.com
+- Adrian Mota Nicolas                        adrianmota319@aragon.unam.mx
