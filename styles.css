@@ -29,6 +29,29 @@ p{
 }
 
 
+/* menu Barra de navegacon */
+nav{
+    background-color: var(--color-principal);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    color: var(--texto);
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: var(--color-secundario);
+}
+
+
+
+
+
+
+
 
 /* cajas */
 .box{
