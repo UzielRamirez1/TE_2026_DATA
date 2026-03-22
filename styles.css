@@ -1,11 +1,38 @@
+/* colores que voy a usar */
+:root{
+    --color-principal: #1E3A8A;
+    --color-secundario: #3B82F6;
+    --fondo: #0F172A;
+    --texto: #E5E7EB;
+    --caja: #1e293b;
+}
+/* cuerpo */
 body{
-    background-color: rgb(226, 168, 43);
-    font-size: 35px;
-    font-style: arial;
+    font-family: Arial;
+    background-color: var(--fondo);
+    color: var(--texto);
+}
+/* titulos */
+h1{
+    color: var(--color-secundario);
+    margin-bottom: 10px;
 }
 
-
-nav{
-    background-color:aliceblue
+h2{
+    color: var(--color-principal);
+    margin-bottom: 10px;
 }
-
+/* cajas */
+.box{
+    background-color: var(--caja);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+/* footer */
+footer{
+    background-color: var(--color-principal);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
