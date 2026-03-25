@@ -1,0 +1,26 @@
+﻿Ingeniería de software:
+La ingeniería de software es la manera en la que se desarrollan programas y sistemas de forma organizada, no solo escribiendo código, sino también analizando lo que se necesita y planeando cómo resolverlo. Involucra varias actividades como el diseño, la programación y las pruebas, con el fin de que el software funcione correctamente.
+
+
+Además, busca que los programas sean confiables, fáciles de usar y que se puedan mejorar con el tiempo sin causar tantos problemas. Esto es importante porque muchos sistemas necesitan actualizarse constantemente, y si están bien hechos desde el inicio, es más sencillo darles mantenimiento y adaptarlos a nuevas necesidades.
+
+
+Ciclos de vida del desarrollo de software:
+El ciclo de vida del desarrollo de software es el proceso que sigue un programa desde que nace la idea hasta que deja de utilizarse. Este proceso incluye etapas como el análisis de lo que se necesita, el diseño de la solución, el desarrollo del programa y las pruebas para verificar que todo funcione bien.
+
+
+También incluye la implementación, donde el sistema se pone en uso, y el mantenimiento, donde se corrigen errores o se hacen mejoras. Dependiendo del proyecto, este ciclo puede ser más estructurado o más flexible, como en los modelos tradicionales o en los enfoques ágiles.
+
+
+Patrones de diseño:
+Los patrones de diseño son soluciones que ya han sido utilizadas y probadas para resolver problemas comunes en el desarrollo de software. Funcionan como una especie de guía que ayuda a los programadores a no empezar desde cero cada vez que enfrentan un problema similar.
+
+
+Gracias a estos patrones, el código suele ser más ordenado, más fácil de entender y también más sencillo de modificar. Además, facilitan el trabajo en equipo, ya que otros desarrolladores pueden reconocer estos patrones y comprender más rápido cómo está construido el sistema.
+
+
+Scrum:
+Scrum es una metodología ágil que se utiliza para organizar el trabajo en equipo, especialmente en proyectos de software. Se basa en dividir el trabajo en periodos cortos llamados sprints, donde se desarrollan pequeñas partes del proyecto en lugar de hacerlo todo de una sola vez.
+
+
+Durante este proceso, cada integrante del equipo tiene un rol específico y se realizan reuniones constantes para revisar avances y detectar problemas. Esto permite mejorar continuamente la forma de trabajar y adaptarse más fácilmente a los cambios que puedan surgir durante el desarrollo del proyecto.
