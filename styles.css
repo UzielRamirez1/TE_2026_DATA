@@ -1,11 +1,75 @@
+/* colores que voy a usar */
+:root{
+    --color-principal: #1E3A8A;
+    --color-secundario: #3B82F6;
+    --fondo: #0F172A;
+    --texto: #E5E7EB;
+    --caja: #1e293b;
+}
+/* cuerpo */
 body{
+<<<<<<< HEAD
     font-size: 35px;
     font-style: arial;
     text-align: centerS;
+=======
+    font-family: Arial;
+    background-color: var(--fondo);
+    color: var(--texto);
+}
+/* titulos */
+h1{
+    color: var(--color-secundario);
+    margin-bottom: 10px;
+}
+
+h2{
+    color: var(--color-principal);
+    margin-bottom: 10px;
+}
+
+/* texto */
+p{
+    margin-bottom: 15px;
+>>>>>>> 1838f0aae1bb53d6d6fb40982da5947fb1106aa3
 }
 
 
+/* menu Barra de navegacon */
 nav{
-    background-color:aliceblue
+    background-color: var(--color-principal);
+    padding: 10px;
+    text-align: center;
 }
 
+nav a{
+    color: var(--texto);
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: var(--color-secundario);
+}
+
+
+
+
+
+
+
+
+/* cajas */
+.box{
+    background-color: var(--caja);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+/* footer */
+footer{
+    background-color: var(--color-principal);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
