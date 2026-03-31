@@ -3,52 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <title>Patrones</title>
+
+    <!-- TU CSS -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-color: var(--fondo); color: var(--texto);">
 
-    <header>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="teoria.html">Teoria</a>
-            <a href="patrones.html">Patrones</a>
-            <a href="scrum.html">Scrum</a>
-        </nav>
-    </header>
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark" style="background-color: var(--color-principal);">
+  <div class="container-fluid">
 
-    <div class="container">
-        <div class="container">
-    <h1>Patrones de Diseño</h1>
+    <a class="navbar-brand" href="index.html">
+        <img src="logo.png" alt="logo" width="500pz">
+    </a>
 
-    <div class="box">
-        <h2>Definición</h2>
-        <p>
-            Los patrones de diseño son soluciones que ya han sido utilizadas y probadas para resolver problemas comunes en el desarrollo de software.
-            Funcionan como una especie de guía que ayuda a los programadores a no empezar desde cero cada vez que enfrentan un problema similar.
-        </p>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <p>
-            Gracias a estos patrones, el código suele ser más ordenado, más fácil de entender y también más sencillo de modificar.
-            Además, facilitan el trabajo en equipo, ya que otros desarrolladores pueden reconocer estos patrones y comprender más rápido cómo está construido el sistema.
-        </p>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>  
+        <a class="nav-link text-light" href="scrum.html">Scrum</a>
+        <a class="nav-link text-light" href="patrones.html">Patrones</a>
+        <a class="nav-link text-light" href="teoria.html">Teoria</a>
+        <a class="nav-link text-light" href="Links/Ruben/user1.html">Ruben</a>
+        <a class="nav-link text-light" href="Links/Uziel/user2.html">Uziel</a>
+        <a class="nav-link text-light" href="Links/Adrian/user3.html">Adrian</a>
+        <a class="nav-link text-light" href="Links/Marlon/user4.html">Marlon</a>
+        <a class="nav-link text-light" href="Links/Julio/user0.html">Julio</a>
+        <a class="nav-link text-light" href="Links/Mike/user5.html">Mike</a>
+        
+      </div>
     </div>
 
-    <div class="box">
-        <h2>Ventajas</h2>
-        <ul>
-            <li>Reutilización de soluciones</li>
-            <li>Mejor organización del código</li>
-            <li>Facilitan el mantenimiento</li>
-            <li>Mejor comprensión del sistema</li>
-        </ul>
+  </div>
+</nav>
+
+<br>
+
+<!-- CONTENIDO -->
+<div class="container d-flex justify-content-center">
+
+  <div class="card mb-3" style="max-width: 1000px; background-color: var(--caja); color: var(--texto);">
+    
+    <div class="card-body">
+
+      <h1 class="card-title text-center">Patrones de Diseño</h1>
+
+      <hr>
+
+      <h3>Definición</h3>
+      <p>
+        Los patrones de diseño son soluciones que ya han sido utilizadas y probadas para resolver problemas comunes en el desarrollo de software.
+        Funcionan como una especie de guía que ayuda a los programadores a no empezar desde cero cada vez que enfrentan un problema similar.
+      </p>
+
+      <p>
+        Gracias a estos patrones, el código suele ser más ordenado, más fácil de entender y también más sencillo de modificar.
+        Además, facilitan el trabajo en equipo, ya que otros desarrolladores pueden reconocer estos patrones y comprender más rápido cómo está construido el sistema.
+      </p>
+
+      <hr>
+
+      <h3>Ventajas</h3>
+      <ul>
+        <li>Reutilización de soluciones</li>
+        <li>Mejor organización del código</li>
+        <li>Facilitan el mantenimiento</li>
+        <li>Mejor comprensión del sistema</li>
+      </ul>
+
     </div>
+
+  </div>
+
 </div>
-    </div>
 
-    <footer>
-        <p>Proyecto Scrum</p>
-    </footer>
+<!-- FOOTER -->
+<footer style="background-color: var(--color-principal); text-align:center; padding:10px;">
+    Proyecto Scrum
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

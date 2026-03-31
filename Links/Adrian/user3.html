@@ -3,52 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarjeta de Presentación</title>
-    <link rel="stylesheet" href="adrian.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Adrian</title>
 
+    <!-- TU CSS -->
+    <link rel="stylesheet" href="../../styles.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-     <nav class="navbar navbar-dark bg-primary">
-  <!-- Navbar content -->
-    <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-        <img src="/logo.png" alt="logo" width="500px">
+
+<body style="background-color: var(--fondo); color: var(--texto);">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark" style="background-color: var(--color-principal);">
+  <div class="container-fluid">
+
+    <!-- LOGO -->
+    <a class="navbar-brand" href="../../index.html">
+        <img src="../../logo.png" alt="logo" width="500px">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+    <!-- BOTON -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
       <span class="navbar-toggler-icon"></span>
     </button>
+
+    <!-- MENU -->
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
-        <a class="nav-link" href="/Links/Ruben/user1.html">Ruben</a>
-        <a class="nav-link" href="/Links/Uziel/user2.html">Uziel</a>
-        <a class="nav-link" href="/Links/Adrian/user3.html">Adrian</a>
-        <a class="nav-link" href="/Links/Marlon/user4.html">Marlon</a>
-        <a class="nav-link" href="/Links/Uziel/user2.html">Julio</a>
-        <a class="nav-link" href="/Links/Uziel/user2.html">Miguel</a> 
+        <a class="nav-link active" aria-current="page" href="../../index.html">Inicio</a>  
+        <a class="nav-link text-light" href="../../scrum.html">Scrum</a>
+        <a class="nav-link text-light" href="../../patrones.html">Patrones</a>
+        <a class="nav-link text-light" href="../../teoria.html">Teoria</a>
+        <a class="nav-link text-light" href="../Ruben/user1.html">Ruben</a>
+        <a class="nav-link text-light" href="../Uziel/user2.html">Uziel</a>
+        <a class="nav-link text-light" href="../Adrian/user3.html">Adrian</a> 
+        <a class="nav-link text-light" href="../Marlon/user4.html">Marlon</a>
+        <a class="nav-link text-light" href="../Julio/user0.html">Julio</a>
+        <a class="nav-link text-light" href="../Mike/user5.html">Mike</a>
       </div>
     </div>
+
   </div>
 </nav>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 <br>
 
-    <div class="card mb-3" style="max-width: 1200px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="/Links/Uziel/AGREGA EL ENLACE DE TU FOTO AL REPO.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">AQUI VA TU NOMBRE</h5>
-        <p class="card-text">Sexto Semestre</p>
-        <p class="card-text">INGRESA TECNOLOGIAS</p>
-        <p class="card-text"><small class="text-muted">Presentación</small></p>
+<!-- CARD -->
+<div class="container d-flex justify-content-center">
+
+  <div class="card mb-3" style="max-width: 1200px; background-color: var(--caja); color: var(--texto);">
+    <div class="row g-0">
+
+      <!-- IMAGEN -->
+      <div class="col-md-4">
+        <img src="fotoadrian.jpeg" class="img-fluid rounded-start" alt="FOTO DE ADRIAN">
       </div>
+
+      <!-- INFO -->
+      <div class="col-md-8">
+        <div class="card-body">
+
+          <h5 class="card-title">Adrian Mota Nicolas</h5>
+
+          <p>Octavo Semestre</p>
+
+          <p>Tecnologías favoritas:</p>
+          <ul>
+            <li>Phyton</li>
+            <li>CSS</li>
+            <li>HTML</li>
+          </ul>
+
+          <p>Hobbies:</p>
+          <ul>
+            <li>Ver series y peliculas</li>
+            <li>Escuchar musica</li>
+            <li>Dibujar</li>
+            <li>Programar</li>
+          </ul>
+
+        </div>
+      </div>
+
     </div>
   </div>
+
 </div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

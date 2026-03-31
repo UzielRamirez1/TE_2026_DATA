@@ -33,6 +33,10 @@ p{
     margin-bottom: 15px;
 >>>>>>> 1838f0aae1bb53d6d6fb40982da5947fb1106aa3
 }
+body{
+    background-color: var(--fondo);
+    color: var(--texto);
+}
 
 
 /* menu Barra de navegacon */
