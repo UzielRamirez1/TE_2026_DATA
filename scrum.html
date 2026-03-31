@@ -4,60 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <title>Scrum</title>
+
+    <!-- TU CSS -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-color: var(--fondo); color: var(--texto);">
 
-    <header>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="teoria.html">Teoria</a>
-            <a href="patrones.html">Patrones</a>
-            <a href="scrum.html">Scrum</a>
-        </nav>
-    </header>
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark" style="background-color: var(--color-principal);">
+  <div class="container-fluid">
 
-    <div class="container">
-        <h1>Scrum</h1>
+    <a class="navbar-brand" href="index.html">
+        <img src="logo.png" alt="logo" width="500px">
+    </a>
 
-        <div class="box">
-            <h2>Definición</h2>
-            <p>
-                Scrum es una metodología ágil que se utiliza para organizar el trabajo en equipo, especialmente en
-                proyectos de software.
-                Se basa en dividir el trabajo en periodos cortos llamados sprints.
-            </p>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-            <p>
-                Durante este proceso, cada integrante del equipo tiene un rol específico y se realizan reuniones
-                constantes para revisar avances y detectar problemas.
-            </p>
-        </div>
-
-        <div class="box">
-            <h2>Características</h2>
-            <ul>
-                <li>Trabajo en equipo</li>
-                <li>Entregas continuas</li>
-                <li>Adaptación al cambio</li>
-                <li>Mejora continua</li>
-            </ul>
-        </div>
-
-        <div class="box">
-            <h2>Elementos principales</h2>
-            <ul>
-                <li>Sprints (periodos de trabajo)</li>
-                <li>Reuniones diarias</li>
-                <li>Roles definidos</li>
-                <li>Revisión constante del proyecto</li>
-            </ul>
-        </div>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="../../index.html">Inicio</a>  
+        <a class="nav-link text-light" href="../../scrum.html">Scrum</a>
+        <a class="nav-link text-light" href="../../patrones.html">Patrones</a>
+        <a class="nav-link text-light" href="../../teoria.html">Teoria</a>
+        <a class="nav-link text-light" href="Links/Ruben/user1.html">Ruben</a>
+        <a class="nav-link text-light" href="Links/Uziel/user2.html">Uziel</a>
+        <a class="nav-link text-light" href="Links/Adrian/user3.html">Adrian</a>
+        <a class="nav-link text-light" href="Links/Marlon/user4.html">Marlon</a>
+        <a class="nav-link text-light" href="Links/Julio/user0.html">Julio</a>
+        <a class="nav-link text-light" href="Links/Mike/user5.html">Mike</a>
+      </div>
     </div>
-    <footer>
-        <p>Proyecto Scrum</p>
-    </footer>
+
+  </div>
+</nav>
+
+<br>
+
+<!-- CONTENIDO -->
+<div class="container d-flex justify-content-center">
+
+  <div class="card mb-3" style="max-width: 1000px; background-color: var(--caja); color: var(--texto);">
+    
+    <div class="card-body">
+
+      <h1 class="card-title text-center">Scrum</h1>
+
+      <hr>
+
+      <h3>Definición</h3>
+      <p>
+        Scrum es una metodología ágil que se utiliza para organizar el trabajo en equipo, especialmente en proyectos de software.
+        Se basa en dividir el trabajo en periodos cortos llamados sprints.
+      </p>
+
+      <p>
+        Durante este proceso, cada integrante del equipo tiene un rol específico y se realizan reuniones constantes para revisar avances y detectar problemas.
+      </p>
+
+      <hr>
+
+      <h3>Características</h3>
+      <ul>
+        <li>Trabajo en equipo</li>
+        <li>Entregas continuas</li>
+        <li>Adaptación al cambio</li>
+        <li>Mejora continua</li>
+      </ul>
+
+      <hr>
+
+      <h3>Elementos principales</h3>
+      <ul>
+        <li>Sprints (periodos de trabajo)</li>
+        <li>Reuniones diarias</li>
+        <li>Roles definidos</li>
+        <li>Revisión constante del proyecto</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer style="background-color: var(--color-principal); text-align:center; padding:10px;">
+    Proyecto Scrum
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
