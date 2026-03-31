@@ -1,33 +1,32 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* colores que voy a usar */
+:root{
+    --color-principal: #1E3A8A;
+    --color-secundario: #3B82F6;
+    --fondo: #0F172A;
+    --texto: #E5E7EB;
+    --caja: #1e293b;
+}
+/* cuerpo */
+body{
+    font-size: 35px;
+    font-style: arial;
+    text-align: center;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
+
+/* menu Barra de navegacon */
+nav{
+    background-color: var(--color-principal);
+    padding: 10px;
+    text-align: center;
 }
 
-.article {
-    display: flex;
-    gap: 20px;
-    max-width: 400px;
-    border: 1px solid #ddd;
-    padding: 15px;
+nav a{
+    color: var(--texto);
+    margin: 10px;
+    text-decoration: none;
 }
 
-.article__img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-.article__info p {
-    margin-bottom: 8px;
-}
-
-.article__info p:last-child {
-    margin-bottom: 0;
+nav a:hover{
+    color: var(--color-secundario);
 }
